@@ -1,10 +1,10 @@
 import { RouterProvider } from "react-router";
 import router from "./router/Router";
 
-function App(){
-  return(
+function App() {
+  return (
     <>
-    <RouterProvider router={router}/>
+      <RouterProvider router={router} />
     </>
   )
 }
